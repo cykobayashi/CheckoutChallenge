@@ -10,4 +10,4 @@ COPY target/checkout-api.jar $PROJECT_HOME/checkout-api.jar
 WORKDIR $PROJECT_HOME
 
 EXPOSE 8080
-CMD ["java","-Dmongo.hostname=127.0.0.1","-jar","./checkout-api.jar"]
+CMD ["java","-Dmongo.hostname=mongodb","-jar","./checkout-api.jar"]

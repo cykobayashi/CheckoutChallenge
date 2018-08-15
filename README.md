@@ -42,7 +42,7 @@ mvn package
 ### Run
 
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 ## Test API

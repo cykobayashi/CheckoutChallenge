@@ -10,3 +10,5 @@ services:
 
   mongodb:
     image: mongo:3.5
+    expose:
+      - 27017
